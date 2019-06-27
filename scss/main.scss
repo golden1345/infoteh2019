@@ -12,3 +12,21 @@ body{
 }
 /*Дефолт*/
 
+/*Header*/
+.menu-project{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    li{
+        padding: 10px;
+    }
+}
+.banner{
+    position: relative;
+    img{
+        position: absolute;
+        width: 100%;
+    }
+}
+/*Header*/

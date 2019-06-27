@@ -2,9 +2,16 @@
 /*Палитра*/
 /*Палитра*/
 /*Дефолт*/
-body {
-  background: rgba(163, 163, 163, 0.7); }
+body { background: rgba(163, 163, 163, 0.7); }
 
 /*Дефолт*/
+/*Header*/
+.menu-project { list-style-type: none; display: flex; justify-content: center; padding: 0px; }
+.menu-project li { padding: 10px; }
+
+.banner { position: relative; }
+.banner img { position: absolute; width: 100%; }
+
+/*Header*/
 
 /*# sourceMappingURL=main.css.map */
