@@ -2,16 +2,23 @@
 /*Палитра*/
 /*Палитра*/
 /*Дефолт*/
-body { background: rgba(163, 163, 163, 0.7); }
+body { margin: 0 auto; background: rgba(163, 163, 163, 0.7); }
 
 /*Дефолт*/
 /*Header*/
-.menu-project { list-style-type: none; display: flex; justify-content: center; padding: 0px; }
+.menu-project { font-family: 'roboto'; background: rgba(0, 0, 0, 0.6); list-style-type: none; display: flex; justify-content: center; margin: 0; padding: 0px; }
 .menu-project li { padding: 10px; }
+.menu-project li a { color: #ffffff; text-decoration: none; }
 
-.banner { position: relative; }
-.banner img { position: absolute; width: 100%; }
+.banner { position: relative; top: -53px; z-index: -1; text-align: center; }
+.banner img { width: 100%; }
 
 /*Header*/
+/*Footer*/
+.partners { margin: 0px 20px 0 20px; }
+
+/*Footer*/
+/*Slider*/
+/*Slider*/
 
 /*# sourceMappingURL=main.css.map */

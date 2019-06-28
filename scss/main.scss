@@ -7,26 +7,48 @@ $bg-item-menu: #00ff00;
 /*Палитра*/
 
 /*Дефолт*/
+
 body{
+    margin: 0 auto;
     background: $ground;
 }
 /*Дефолт*/
 
 /*Header*/
 .menu-project{
+    font-family: 'roboto';
+    background: rgba($menu-bg,0.6);
     list-style-type: none;
     display: flex;
     justify-content: center;
+    margin: 0;
     padding: 0px;
     li{
         padding: 10px;
+        a{
+            color: #ffffff;
+            text-decoration: none;
+
+        }
     }
 }
 .banner{
     position: relative;
+    top: -53px;
+    z-index: -1;
+    text-align: center;
     img{
-        position: absolute;
         width: 100%;
     }
 }
 /*Header*/
+
+/*Footer*/
+.partners{
+    margin: 0px 20px 0 20px;
+}
+/*Footer*/
+
+/*Slider*/
+
+/*Slider*/
