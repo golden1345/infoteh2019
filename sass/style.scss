@@ -1,0 +1,126 @@
+$dark: #036e63;
+$ligth: #51bdb2;
+$average: #05a393;
+$white: #ffffff;
+
+@import url(fonts/font-style.css);
+@import url(css/bootstrap.css);
+@import url(css/bootstrap.min.css);
+
+body{
+    font-weight: bold;
+}
+
+h1,h2,h3{
+    color: $dark;
+}
+
+.btn{
+    color: $white !important;
+    background: $dark !important;
+    border: 0 !important;
+}
+
+.border-section{
+    padding: 30px 0;
+    border-top: 5px solid $dark;
+    border-bottom: 5px solid $dark; 
+}
+
+.border-section-light{
+    border-bottom: 5px solid #51bdb2;
+}
+
+.menu-bar{
+    background: $ligth;
+    .container{
+        .row{
+            height: 80px;
+        }
+    }
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    li{
+display: block;
+list-style-type: none;
+padding: 0;
+margin: 0 17px 0 0;
+a{
+    color: $white;
+}
+}
+}
+
+.social{
+    margin: 0 15px 0 0 !important;
+    a{
+    color: $dark !important;
+    }
+}
+
+.name-company{
+    width: 370px;
+    height: 370px;
+    background: $ligth;
+    border-radius: 50%;
+    border: 5px solid $dark;
+    p{
+        font-size: 74px;
+        color: $dark;
+        text-shadow: $white 0 0 5px,$white 0 0 5px,$white 0 0 5px;
+    }
+}
+
+.description-company{
+    h1{
+        font-size: 26px;
+        font-family: roboto_light;
+        font-style: italic;
+    }
+}
+
+.logo-project{
+    width: 210px;
+    height: 210px;
+    background: $ligth;
+    border-radius: 50%;
+    border: 5px solid $dark;
+    p{
+        font-size: 36px;
+        color: $dark;
+        text-shadow: $white 0 0 5px,$white 0 0 5px,$white 0 0 5px;  
+    }
+}
+
+.nav-items-news{
+    margin: 24px 0 0 0; 
+    background: $average;
+    font-size: 24px;
+    color: $white !important;
+    .nav-link{
+        border-radius: 0 !important;
+    }
+}
+
+.name-project{
+    color: $white;
+}
+
+.bg-content-news{
+    background: $average;
+}
+
+.nav-important-link{
+    list-style-type: none;
+    padding: 0;
+    li{
+        a{
+            color: $white;
+            font-size: 22px;
+        }
+    }
+}

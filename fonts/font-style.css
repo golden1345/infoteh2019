@@ -15,7 +15,7 @@
 
 
 @font-face {
-    font-family: 'roboto';
+    font-family: 'roboto-bold';
     src: url('roboto-bold-webfont.woff2') format('woff2'),
          url('roboto-bold-webfont.woff') format('woff');
     font-weight: bold;
@@ -75,7 +75,7 @@
 
 
 @font-face {
-    font-family: 'roboto';
+    font-family: 'roboto-regular';
     src: url('roboto-regular-webfont.woff2') format('woff2'),
          url('roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
