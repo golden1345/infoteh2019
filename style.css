@@ -1,16 +1,21 @@
-@import url(fonts/font-style.css);
-@import url(css/bootstrap.css);
-@import url(css/bootstrap.min.css);
-body {
-  font-weight: bold; }
+main {
+  max-width: 1380px;
+  margin: 0 auto; }
 
 h1, h2, h3 {
+  font-weight: bold !important;
   color: #036e63; }
+
+.navbar-toggler {
+  border: 3px solid #036e63; }
 
 .btn {
   color: #ffffff !important;
   background: #036e63 !important;
   border: 0 !important; }
+  .btn :hover {
+    color: #036e63 !important;
+    background: #a5f1e9 !important; }
 
 .border-section {
   padding: 30px 0;
@@ -20,59 +25,67 @@ h1, h2, h3 {
 .border-section-light {
   border-bottom: 5px solid #51bdb2; }
 
+.border-top-light {
+  border-top: 5px solid #a5f1e9; }
+
+.border-right-light {
+  border-right: 5px solid #a5f1e9; }
+
 .menu-bar {
-  background: #51bdb2; }
+  background: #05a393; }
   .menu-bar .container .row {
     height: 80px; }
 
 .menu {
-  padding: 0;
-  margin: 0;
-  font-size: 16px; }
-  .menu li {
-    display: block;
-    list-style-type: none;
-    padding: 0;
-    margin: 0 17px 0 0; }
-    .menu li a {
-      color: #ffffff; }
-
-.social {
-  margin: 0 15px 0 0 !important; }
-  .social a {
-    color: #036e63 !important; }
+  font-size: 1rem; }
+  .menu li a {
+    color: #ffffff !important; }
+  .menu .social {
+    align-self: inherit;
+    margin: 0 15px 0 0 !important; }
+    .menu .social a {
+      color: #036e63 !important; }
 
 .name-company {
   width: 370px;
   height: 370px;
-  background: #51bdb2;
+  background: #a5f1e9;
   border-radius: 50%;
   border: 5px solid #036e63; }
   .name-company p {
-    font-size: 74px;
+    font-size: 3rem;
     color: #036e63;
     text-shadow: #ffffff 0 0 5px, #ffffff 0 0 5px, #ffffff 0 0 5px; }
 
 .description-company h1 {
-  font-size: 26px;
+  font-size: 1.75rem;
   font-family: roboto_light;
   font-style: italic; }
 
 .logo-project {
   width: 210px;
   height: 210px;
-  background: #51bdb2;
+  background: #a5f1e9;
   border-radius: 50%;
   border: 5px solid #036e63; }
   .logo-project p {
-    font-size: 36px;
+    font-size: 2.1rem;
     color: #036e63;
     text-shadow: #ffffff 0 0 5px, #ffffff 0 0 5px, #ffffff 0 0 5px; }
+
+.name-counter {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #036e63; }
+
+.counter {
+  color: #036e63;
+  font-style: italic; }
 
 .nav-items-news {
   margin: 24px 0 0 0;
   background: #05a393;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #ffffff !important; }
   .nav-items-news .nav-link {
     border-radius: 0 !important; }
@@ -88,6 +101,39 @@ h1, h2, h3 {
   padding: 0; }
   .nav-important-link li a {
     color: #ffffff;
-    font-size: 22px; }
+    font-size: 1.25rem; }
+
+footer {
+  background-color: #036e63;
+  color: #a5f1e9; }
+  footer h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a5f1e9; }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; }
+    footer ul li a {
+      color: #a5f1e9; }
+
+.card-header {
+  background: 0 !important; }
+  .card-header button {
+    width: 100%;
+    font-size: 1.3rem; }
+
+.card-body ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.25rem; }
+  .card-body ul li a {
+    color: #036e63;
+    font-style: italic; }
+
+.btn-mail {
+  background: #05a393 !important;
+  border: 3px solid #a5f1e9 !important; }
 
 /*# sourceMappingURL=style.css.map */

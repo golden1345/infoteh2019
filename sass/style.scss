@@ -1,21 +1,31 @@
 $dark: #036e63;
-$ligth: #51bdb2;
+$ligth: #a5f1e9;
 $average: #05a393;
 $white: #ffffff;
 
-@import url(fonts/font-style.css);
-@import url(css/bootstrap.css);
-@import url(css/bootstrap.min.css);
 
 body{
-    font-weight: bold;
+}
+
+main{
+    max-width: 1380px;
+    margin: 0 auto;
 }
 
 h1,h2,h3{
+    font-weight: bold !important;
     color: $dark;
 }
 
+.navbar-toggler{
+    border: 3px solid $dark;
+}
+
 .btn{
+    :hover{
+        color: $dark !important;
+        background: $ligth !important;
+    }
     color: $white !important;
     background: $dark !important;
     border: 0 !important;
@@ -31,8 +41,15 @@ h1,h2,h3{
     border-bottom: 5px solid #51bdb2;
 }
 
+.border-top-light{
+    border-top: 5px solid $ligth;
+}
+.border-right-light{
+    border-right: 5px solid $ligth;
+}
+
 .menu-bar{
-    background: $ligth;
+    background: $average;
     .container{
         .row{
             height: 80px;
@@ -40,26 +57,21 @@ h1,h2,h3{
     }
 }
 
-.menu{
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    li{
-display: block;
-list-style-type: none;
-padding: 0;
-margin: 0 17px 0 0;
-a{
-    color: $white;
-}
-}
-}
 
+.menu{
+    font-size: 1rem;
+    li{
+a{
+    color: $white !important;
+}
+}
 .social{
+    align-self: inherit;
     margin: 0 15px 0 0 !important;
     a{
     color: $dark !important;
     }
+}
 }
 
 .name-company{
@@ -69,7 +81,7 @@ a{
     border-radius: 50%;
     border: 5px solid $dark;
     p{
-        font-size: 74px;
+        font-size: 3rem;
         color: $dark;
         text-shadow: $white 0 0 5px,$white 0 0 5px,$white 0 0 5px;
     }
@@ -77,7 +89,7 @@ a{
 
 .description-company{
     h1{
-        font-size: 26px;
+        font-size: 1.75rem;
         font-family: roboto_light;
         font-style: italic;
     }
@@ -90,16 +102,26 @@ a{
     border-radius: 50%;
     border: 5px solid $dark;
     p{
-        font-size: 36px;
+        font-size: 2.1rem;
         color: $dark;
         text-shadow: $white 0 0 5px,$white 0 0 5px,$white 0 0 5px;  
     }
 }
 
+.name-counter{
+font-size: 1.25rem;
+margin: 0;
+color: $dark;
+}
+.counter{
+    color: $dark;
+    font-style: italic;
+}
+
 .nav-items-news{
     margin: 24px 0 0 0; 
     background: $average;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: $white !important;
     .nav-link{
         border-radius: 0 !important;
@@ -120,7 +142,56 @@ a{
     li{
         a{
             color: $white;
-            font-size: 22px;
+            font-size: 1.25rem;
         }
     }
 }
+
+footer{
+    background-color: $dark;
+    color: $ligth;
+    h3{
+        font-size: 1.4rem;
+       text-transform: uppercase;
+       text-align: center; 
+       color: $ligth;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        li{
+            a{
+                color: $ligth;
+            }
+        }
+    }
+}
+
+.card-header{
+    background: 0 !important;
+    button{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}
+
+.card-body{
+    ul{
+        list-style-type: none;
+        padding: 0;
+        font-size: 1.25rem;
+        li{
+            a{
+                color: #036e63;
+                font-style: italic;
+            }
+        }
+    }
+}
+
+.btn-mail{
+    background: $average !important;
+    border: 3px solid $ligth !important;
+}
+
